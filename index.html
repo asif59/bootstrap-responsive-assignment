@@ -34,39 +34,41 @@
 <body>
     <!-- header start -->
     <header class="container">
-        <div class="container pb-lg-5 pb-sm-0">
-            <div class="container d-flex align-items-center justify-content-between bg-white" style="height: 100px;">
+        <div class="container-lg container-md container-sm pb-lg-5 pb-sm-0">
+            <div class="container d-flex d-md-flex d-sm-flex align-items-lg-center align-items-sm-center align-items-md-center justify-content-lg-between  justify-content-sm-between bg-white"
+                style="height: 100px;">
                 <div>
                     <h2 class="fw-bold">Pro Edu</h2>
                 </div>
                 <div>
                     <!-- navbar start -->
-                    <nav class="navbar navbar-expand-lg container-fluid">
-                        <div>
+                    <nav class="navbar navbar-expand-lg bg-light">
+                        <div class="container">
+                            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav mb-2 mb-lg-0">
-                                    <li class="nav-item me-2">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
                                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                                     </li>
-                                    <li class="nav-item me-2">
-                                        <a class="nav-link" href="#">Courses</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#shoes">Courses</a>
                                     </li>
-                                    <li class="nav-item me-2">
-                                        <a class="nav-link" href="#">Deals</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#bag">Deal</a>
                                     </li>
-                                    <li class="nav-item me-2">
-                                        <a class="nav-link" href="#">Success</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#subscribe">Success</a>
                                     </li>
-                                    <li class="nav-item me-1">
-                                        <a class="nav-link" href="#">About</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#subscribe">About</a>
                                     </li>
-                                    <li class="nav-item me-2">
-                                        <a class="nav-link" href="#">Contact</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#subscribe">Contact</a>
                                     </li>
                                     <li class="nav-item">
                                         <button class="nav-link btn btn-primary text-white px-3" type="submit">Sign
@@ -80,17 +82,15 @@
                 </div>
             </div>
             <!-- slider start -->
-            <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div id="carouselExampleControls container" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
-                            <h1 class="text-white fw-bold">Get Started Digital
+                            <h1 class="text-white fw-bold fs-3">Get Started Digital
                                 Learning</h1>
                             <p>Students do not learn much just sitting in classes listening to
-                                teachers,memorizing prepackaged assignments,
-                                and
-                                spitting out answers.</p>
+                                teachers,memorizing prepackaged assignments.</p>
                             <button class="btn btn-primary text-white px-4 py-2 fw-bold rounded-0 opacity-100"
                                 type="submit">Get
                                 Started</button>
@@ -99,7 +99,7 @@
                     <div class="carousel-item">
                         <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
-                            <h1 class="text-white fw-bold">Get Started Digital
+                            <h1 class="text-white fw-bold fs-3">Get Started Digital
                                 Learning</h1>
                             <p>In order to create an engaging learning experience, the roleof instructor is
                                 optional, but the role of learner is
@@ -112,12 +112,12 @@
                     <div class="carousel-item">
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
-                            <h1 class="text-white fw-bold">Get Started Digital
+                            <h1 class="text-white fw-bold fs-3">Get Started Digital
                                 Learning</h1>
                             <p>The most important principle for designing lively eLearning isto see eLearning design
                                 not as information designbut as
                                 designing an experience.</p>
-                            <button class="btn btn-primary text-white px-4 py-2 fw-bold rounded-0 opacity-100"
+                            <button class="btn btn-sm btn-primary text-white px-4 py-2 fw-bold rounded-0 opacity-100"
                                 type="submit">Get
                                 Started</button>
                         </div>
@@ -141,19 +141,19 @@
 
     <!-- main start -->
     <main>
-        <section class="container py-lg-5 py-sm-3">
-            <h1 class="text-center text-sm-center fw-bolder">Discover Our Popular<br>Courses</h1>
-            <p class="text-secondary text-center">The IT industry is growing quickly as companies become
+        <section class="container py-lg-5 py-md-5 py-sm-3">
+            <h1 class="text-lg-center text-md-center text-sm-center fw-bolder">Discover Our Popular<br>Courses</h1>
+            <p class="text-secondary text-lg-center text-md-center text-sm-center">The IT industry is growing quickly as
+                companies become
                 more<br>technology-based and the need to manage<br>information becomes
                 increasingly vital.</p>
             <!-- cards -->
             <div class="container pt-lg-5">
-                <div class="container-fluid row row-cols-lg-2 gap-3 d-sm-flex justify-content-sm-center">
+                <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 gap-3">
                     <div class="col-lg-12 col-sm-12 card mb-3 p-0" style="width: 32rem;">
                         <div class="d-flex flex-lg-row align-items-center flex-sm-column">
-                            <div class="col-md-4 col-sm-12">
-                                <img src="images/course/course-1.png"
-                                    class="img-fluid rounded-start" alt="...">
+                            <div class="col-md-4">
+                                <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -265,12 +265,14 @@
 
         <!-- explore sectiion start -->
         <section class="container py-5">
-            <div style="background-color: #F4FAFD;" class="d-flex flex-lg-row flex-sm-column align-items-center gap-5">
+            <div style="background-color: #F4FAFD;"
+                class="d-flex flex-lg-row flex-md-row flex-sm-column align-items-lg-center align-items-md-center gap-5">
                 <img class="img-fluid w-100" style="height: 650px;" src="images/working.png" alt="">
-                <div class="container-lg container-sm">
+                <div class="container">
                     <h1 class="fw-bolder container-fluid">Explore The elearning
                         Institute</h1>
-                    <p class="text-justify container-fluid">E-Learning consist of teaching can be based in or out of the Classrooms, the
+                    <p class="text-justify container-fluid">E-Learning consist of teaching can be based in or out of the
+                        Classrooms, the
                         use of computers and
                         the Internet. E-learning definition is defined as providing Training and development to the
                         Students/Employees through various
@@ -280,7 +282,7 @@
                         Today people first search for their queries on the internet rather than looking for books or
                         asking someone. Hence, this
                         has led to the Importance of E-Learning in Education.</p>
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-lg-evenly justify-content-sm-evenly justify-content-md-evenly">
                         <div>
                             <h1 class="fw-bold">3.2K+</h1>
                             <p class="text-secondary">Online Course</p>
@@ -294,7 +296,8 @@
                             <p class="text-secondary">Expert Member</p>
                         </div>
                     </div>
-                    <button class="mt-3 btn btn-primary text-white px-4 py-2 fw-bold opacity-75" type="submit">Read
+                    <button class="mt-lg-3 mt-sm-0 mt-md-3 btn btn-primary text-white px-4 py-2 fw-bold opacity-75"
+                        type="submit">Read
                         More</button>
                 </div>
             </div>
@@ -305,7 +308,8 @@
         <section style="height: 250px;"
             class="container rounded-3 d-flex justify-content-center align-items-center bg-primary my-5">
             <div class="container-fluid">
-                <div class="container d-flex flex-lg-row flex-sm-column align-items-center justify-content-between px-5">
+                <div
+                    class="container d-flex flex-lg-row flex-sm-column flex-md-column align-items-lg-center justify-content-lg-between justify-content-md-center justify-content-sm-center align-items-md-center align-items-sm-center px-5">
                     <div>
                         <h1 class="text-white">Ready to join?</h1>
                         <p class="text-white-50">Let's explore the course now.</p>
@@ -346,45 +350,53 @@
         <!-- successful students section start -->
         <section class="container py-5">
             <div>
-                <h1 class="fw-bold text-lg-start text-sm-center">Meet Our Successfull<br>Students</h1>
-                <p class="mt-3 text-lg-start text-sm-center">Student success refers to a classroom that has the resources<br>to support a socially
+                <h1 class="fw-bold text-lg-start text-md-start text-center">Meet Our Successfull<br>Students</h1>
+                <p class="mt-3 text-lg-start text-md-start text-center">Student success refers to a classroom that
+                    has the
+                    resources<br>to support a socially
                     and culturally
                     diverse student
                     population.</p>
-                <div class="d-flex flex-lg-row flex-sm-column justify-content-lg-between align-items-sm-center gap-sm-3 mt-5 mb-3">
-                    <div class="card" style="width: 16rem;">
-                        <img src="images/student/student-1.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                            <p class="card-title fs-5 fw-bold text-lg-start text-sm-center">Asif Alamgir</p>
-                            <p class="card-text fs-6 text-secondary text-lg-start text-sm-center">Web Developer</p>
+                <div class="container">
+                    <div class="row row-cols-md-2 row-cols-lg-4 g-4 mt-5 mb-3 justify-content-md-center justify-content-center justify-content-lg-center align-items-center">
+                        <div class="col">
+                            <div class="card" style="width: 16rem;">
+                                <img src="images/student/student-1.png" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="card-title fs-5 fw-bold text-lg-start text-sm-center">Asif Alamgir</p>
+                                    <p class="card-text fs-6 text-secondary text-lg-start text-sm-center">Web Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 16rem;">
+                                <img src="images/student/student-2.png" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="card-title fs-5 fw-bold text-lg-start text-sm-center">Keya Yeasmin</p>
+                                    <p class="card-text fs-6 text-secondary text-lg-start text-sm-center">UX/UI Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 16rem;">
+                                <img src="images/student/student-3.png" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="card-title fs-5 fw-bold text-lg-start text-sm-center">Mehedi Islam</p>
+                                    <p class="card-text fs-6 text-secondary text-lg-start text-sm-center">Graphic Designer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 16rem;">
+                                <img src="images/student/student-4.png" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="card-title fs-5 fw-bold text-lg-start text-sm-center">jarsia Islam</p>
+                                    <p class="card-text fs-6 text-secondary text-lg-start text-sm-center">Motion Graphic</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card" style="width: 16rem;">
-                        <img src="images/student/student-2.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                            <p class="card-title fs-5 fw-bold text-lg-start text-sm-center">Keya Yeasmin</p>
-                            <p class="card-text fs-6 text-secondary text-lg-start text-sm-center">UX/UI Designer</p>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 16rem;">
-                        <img src="images/student/student-3.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                            <p class="card-title fs-5 fw-bold text-lg-start text-sm-center">Mehedi Islam</p>
-                            <p class="card-text fs-6 text-secondary text-lg-start text-sm-center">Graphic Designer</p>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 16rem;">
-                        <img src="images/student/student-4.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                            <p class="card-title fs-5 fw-bold text-lg-start text-sm-center">jarsia Islam</p>
-                            <p class="card-text fs-6 text-secondary text-lg-start text-sm-center">Motion Graphic</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="position-relative pb-5">
-                    <button
-                        class="position-absolute start-50 translate-middle mt-5 btn btn-primary text-white px-4 py-2 fw-bold opacity-75"
-                        type="submit">View All</button>
                 </div>
             </div>
         </section>
@@ -393,10 +405,13 @@
         <!-- student feedback section start -->
         <section class="container py-5">
             <div>
-                <h1 class="text-center fw-bolder text-lg-start text-sm-center">Some Students Feedback</h1>
-                <p class="text-secondary text-lg-start text-sm-center">Student’s feedback is an effective tool for teachers' evaluation.
+                <h1 class="text-center fw-bolder text-lg-start text-md-center text-center">Some Students Feedback</h1>
+                <p class="text-secondary text-lg-start text-md-center text-center">Student’s feedback is an effective
+                    tool for
+                    teachers' evaluation.
                 </p>
-                <div class="d-flex flex-lg-row flex-sm-column justify-content-lg-between align-items-sm-center gap-3 mt-5">
+                <div
+                    class="d-flex flex-lg-row flex-column flex-md-column justify-content-lg-between align-items-center gap-3 mt-5">
                     <div class="card" style="width: 35rem;">
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
@@ -450,17 +465,24 @@
                         </div>
                     </div>
                 </div>
+                <div class="position-relative pb-5">
+                    <button
+                        class="position-absolute start-50 translate-middle mt-5 btn btn-primary text-white px-4 py-2 fw-bold opacity-75"
+                        type="submit">View All</button>
+                </div>
             </div>
         </section>
         <!-- student feedback section end -->
 
         <!-- frequent question start -->
         <section class="container py-5">
-            <h1 class="text-lg-center text-sm-center fw-bolder">Frequently Asked Questions</h1>
-            <p class="text-secondary text-lg-center text-sm-center">An effective FAQ resource can educate, inform, and guide the<br>user
+            <h1 class="text-lg-center text-md-center text-center fw-bolder">Frequently Asked Questions</h1>
+            <p class="text-secondary text-lg-center text-md-center text-center">An effective FAQ resource can educate, inform, and
+                guide the<br>user
                 in a natural way through the website.</p>
             <div class="pt-3">
-                <div class="accordion d-sm-flex flex-sm-column align-items-sm-center gap-sm-3" id="accordionExample">
+                <div class="accordion d-sm-flex d-md-flex flex-sm-column align-items-sm-center gap-sm-3"
+                    id="accordionExample">
                     <div class="accordion-item w-100">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -555,7 +577,7 @@
         <!-- frequent question end -->
 
         <!-- trusted company section start -->
-        <section class="container d-lg-block d-sm-none">
+        <section class="container d-lg-block d-sm-none d-md-none">
             <div class="py-5">
                 <h1 class="text-center fw-bolder mb-5">Trusted by over 800+ companies</h1>
                 <div class="container d-flex justify-content-between">
